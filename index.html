@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francisco G. Avendaño Esparza | Portafolio Profesional</title>
+    <title>M.C. Francisco G. Avendaño Esparza | Portafolio Profesional de Alta Dirección</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome Icons for modern representation -->
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts - Inter & Playfair Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght=0,600;0,700;1,600&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             darkMode: 'class',
@@ -77,21 +77,20 @@
                     </span>
                 </div>
                 <!-- Desktop Menu -->
-                <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                <div class="hidden xl:flex items-center space-x-6 text-sm font-medium">
                     <a href="#inicio" class="text-slate-300 hover:text-teal-400 transition-colors">Inicio</a>
                     <a href="#perfil" class="text-slate-300 hover:text-teal-400 transition-colors">Perfil</a>
                     <a href="#habilidades" class="text-slate-300 hover:text-teal-400 transition-colors">Habilidades</a>
                     <a href="#experiencia" class="text-slate-300 hover:text-teal-400 transition-colors">Experiencia</a>
-                    <a href="#proyectos" class="text-slate-300 hover:text-teal-400 transition-colors">Proyectos e IA</a>
-                    <a href="#educacion" class="text-slate-300 hover:text-teal-400 transition-colors">Formación</a>
-                    <a href="#cursos" class="text-slate-300 hover:text-teal-400 transition-colors">Cursos</a>
+                    <a href="#investigacion" class="text-slate-300 hover:text-teal-400 transition-colors">Investigación</a>
+                    <a href="#consola" class="text-slate-300 hover:text-teal-400 transition-colors">Consola Académica</a>
                     <button onclick="toggleDarkMode()" class="p-2 rounded-full hover:bg-slate-800 text-teal-400" aria-label="Cambiar tema">
                         <i class="fa-solid fa-circle-half-stroke text-lg"></i>
                     </button>
                     <a href="mailto:favendao13@yahoo.com.mx" class="bg-gradient-to-r from-teal-500 to-sky-500 text-marine-950 font-bold px-4 py-2 rounded-lg hover:opacity-90 transition-all shadow-lg shadow-teal-500/20">Contacto</a>
                 </div>
                 <!-- Mobile menu button -->
-                <div class="md:hidden flex items-center gap-4">
+                <div class="xl:hidden flex items-center gap-4">
                     <button onclick="toggleDarkMode()" class="p-2 rounded-full hover:bg-slate-800 text-teal-400">
                         <i class="fa-solid fa-circle-half-stroke"></i>
                     </button>
@@ -102,23 +101,22 @@
             </div>
         </div>
         <!-- Mobile Menu Panel -->
-        <div id="mobile-menu" class="hidden md:hidden px-4 pt-2 pb-4 bg-marine-900 border-t border-slate-800">
+        <div id="mobile-menu" class="hidden xl:hidden px-4 pt-2 pb-4 bg-marine-900 border-t border-slate-800">
             <div class="flex flex-col space-y-3 pt-2 text-base font-medium">
                 <a href="#inicio" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Inicio</a>
                 <a href="#perfil" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Perfil</a>
                 <a href="#habilidades" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Habilidades</a>
                 <a href="#experiencia" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Experiencia</a>
-                <a href="#proyectos" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Proyectos e IA</a>
-                <a href="#educacion" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Formación</a>
-                <a href="#cursos" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Cursos</a>
+                <a href="#investigacion" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Investigación</a>
+                <a href="#consola" class="text-slate-300 hover:text-teal-400 transition-colors py-2 border-b border-slate-800" onclick="toggleMenu()">Consola de Búsqueda</a>
                 <a href="mailto:favendao13@yahoo.com.mx" class="bg-gradient-to-r from-teal-500 to-sky-500 text-marine-950 font-bold px-4 py-2 rounded-lg text-center shadow-lg shadow-teal-500/20">Contacto Directo</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="inicio" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-marine-900 via-marine-950 to-black">
-        <!-- Floating abstract shapes -->
+    <section id="inicio" class="relative min-h-screen flex items-center pt-28 pb-16 overflow-hidden bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-marine-900 via-marine-950 to-black">
+        <!-- Floating shapes -->
         <div class="absolute top-1/4 left-1/10 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute bottom-1/4 right-1/10 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -126,18 +124,17 @@
             <!-- Left Info Block -->
             <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                 <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-300 text-xs font-semibold tracking-wider uppercase mx-auto lg:mx-0">
-                    <i class="fa-solid fa-anchor animate-pulse"></i> 15+ Años de Liderazgo Estratégico
+                    <i class="fa-solid fa-ship animate-pulse"></i> Perfil Híbrido: Académico & Operaciones Marítimas
                 </div>
                 <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-white font-serif">
                     M.C. Francisco G. <br>
                     <span class="bg-gradient-to-r from-teal-400 via-sky-400 to-blue-500 bg-clip-text text-transparent">Avendaño Esparza</span>
                 </h1>
                 <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0">
-                    Líder Académico, Gestor de Talento y Experto en Ingeniería de Dragado & Infraestructura Portuaria. 
-                    <span class="text-teal-400 font-semibold block mt-2">Creador de la Licenciatura en Gestión y Administración Marítima y Portuaria (LGAMP).</span>
+                    Líder estratégico en el diseño e implementación de programas educativos de alta especialidad y dirección operativa en megaproyectos de infraestructura marítima y dragado. 
                 </p>
                 
-                <!-- Quick Contact Badge Container -->
+                <!-- Quick Contacts -->
                 <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4 text-sm text-slate-300">
                     <span class="flex items-center gap-2 bg-slate-900/80 border border-slate-800 px-4 py-2.5 rounded-xl">
                         <i class="fa-solid fa-location-dot text-teal-400"></i> Guaymas, Sonora, MX
@@ -167,7 +164,6 @@
             <!-- Right Visual Interactive Card -->
             <div class="lg:col-span-5 relative mt-8 lg:mt-0">
                 <div class="relative mx-auto max-w-[380px] sm:max-w-[420px] rounded-3xl overflow-hidden shadow-2xl border border-white/10 bg-slate-900/60 p-6 glassmorphism">
-                    <!-- Tech & Marine Concept Graphic (Interactive) -->
                     <div class="h-64 rounded-2xl bg-gradient-to-br from-slate-950 via-marine-900 to-teal-950 flex flex-col justify-between p-6 relative overflow-hidden group">
                         <div class="absolute -right-16 -bottom-16 w-48 h-48 bg-teal-400/20 rounded-full blur-2xl group-hover:bg-teal-400/30 transition-all duration-500"></div>
                         <div class="absolute top-4 right-4 flex gap-2">
@@ -176,12 +172,11 @@
                             <span class="h-3 w-3 rounded-full bg-green-500"></span>
                         </div>
                         <div class="space-y-2 relative z-10">
-                            <span class="text-xs font-bold text-teal-400 tracking-wider uppercase">Área Clave</span>
-                            <h3 class="text-2xl font-serif text-white font-bold leading-tight">Gestión Portuaria & Ciencia Aplicada</h3>
+                            <span class="text-xs font-bold text-teal-400 tracking-wider uppercase">Área Estratégica</span>
+                            <h3 class="text-2xl font-serif text-white font-bold leading-tight">Puertos, Dragado & Ciencia Aplicada</h3>
                         </div>
-                        <!-- SVG Dredging vessel schema -->
                         <div class="w-full flex justify-center py-2 relative z-10">
-                            <svg class="w-48 h-20 text-teal-400/80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="w-48 h-20 text-teal-400/80 animate-pulse" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10 50 L190 50 L175 68 L25 68 Z" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="2"/>
                                 <rect x="50" y="30" width="40" height="20" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="1.5" rx="2"/>
                                 <line x1="120" y1="50" x2="160" y2="25" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -190,25 +185,25 @@
                             </svg>
                         </div>
                         <div class="flex justify-between items-center text-xs text-slate-400 border-t border-white/10 pt-4 relative z-10">
-                            <span>Sistemas Marítimos</span>
-                            <span class="text-teal-300 font-semibold"><i class="fa-solid fa-microchip"></i> Python e IA en Ingeniería</span>
+                            <span>Manejo de Zona Costera</span>
+                            <span class="text-teal-300 font-semibold"><i class="fa-solid fa-brain"></i> IA en Ingeniería Docente</span>
                         </div>
                     </div>
 
                     <!-- Highlight Metrics Grid -->
                     <div class="grid grid-cols-2 gap-4 mt-6">
                         <div class="bg-marine-950/50 p-4 rounded-xl border border-white/5 text-center">
-                            <span class="block text-3xl font-bold text-white tracking-tight" id="count-proyectos">15+</span>
-                            <span class="text-[11px] uppercase tracking-wider text-slate-400 font-medium">Años Liderazgo</span>
+                            <span class="block text-3xl font-bold text-white tracking-tight">15+ Años</span>
+                            <span class="text-[11px] uppercase tracking-wider text-slate-400 font-medium">Trayectoria Directiva</span>
                         </div>
                         <div class="bg-marine-950/50 p-4 rounded-xl border border-white/5 text-center">
-                            <span class="block text-3xl font-bold text-teal-400 tracking-tight">57+</span>
-                            <span class="text-[11px] uppercase tracking-wider text-slate-400 font-medium">Cursos & Certs</span>
+                            <span class="block text-3xl font-bold text-teal-400 tracking-tight">57</span>
+                            <span class="text-[11px] uppercase tracking-wider text-slate-400 font-medium">Certificaciones</span>
                         </div>
                         <div class="bg-marine-950/50 p-4 rounded-xl border border-white/5 text-center col-span-2">
-                            <span class="text-xs text-slate-400 block mb-1">Logro Insignia</span>
+                            <span class="text-xs text-slate-400 block mb-1">Autoridad Nacional LGAMP</span>
                             <span class="text-xs font-semibold text-white flex items-center justify-center gap-1.5">
-                                <i class="fa-solid fa-award text-yellow-500"></i> Creador del Programa LGAMP
+                                <i class="fa-solid fa-award text-yellow-500"></i> Co-diseñador del Plan de Estudios Federal
                             </span>
                         </div>
                     </div>
@@ -221,57 +216,57 @@
     <section id="perfil" class="py-24 bg-marine-900/50 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                <!-- Highlight Visual representation -->
+                
                 <div class="lg:col-span-5 space-y-6">
                     <div class="relative group rounded-3xl overflow-hidden shadow-2xl border border-slate-700 aspect-[4/3] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80');">
                         <div class="absolute inset-0 bg-gradient-to-t from-marine-950 via-marine-950/40 to-transparent"></div>
                         <div class="absolute bottom-6 left-6 right-6 text-white">
-                            <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block mb-1">Vínculo Industrial</span>
-                            <h4 class="text-xl font-bold font-serif">Alineación Puerto - Academia</h4>
-                            <p class="text-xs text-slate-300 mt-1">Conectando la formación profesional con las necesidades reales del sector portuario e industrial.</p>
+                            <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block mb-1">Enlace Puerto - Academia</span>
+                            <h4 class="text-xl font-bold font-serif">Alineación Estratégica</h4>
+                            <p class="text-xs text-slate-300 mt-1">Conectando las demandas operativas industriales de dragado y logística portuaria con el aula universitaria.</p>
                         </div>
                     </div>
                     
-                    <!-- Quote Card -->
                     <div class="bg-gradient-to-br from-teal-500/10 to-sky-500/5 p-6 rounded-2xl border border-teal-500/20 shadow-inner">
                         <p class="italic text-slate-300 text-sm">
-                            "Líder estratégico especializado en la creación y dirección de programas académicos de alta especialidad y gestión de proyectos complejos. Experto en vincular la formación con el mercado laboral."
+                            "Lidero con estándares internacionales rigurosos como ISO 14001, CTPAT y las reconocidas metodologías de seguridad conductual NINA de Boskalis."
                         </p>
                     </div>
                 </div>
 
-                <!-- Text Summary -->
                 <div class="lg:col-span-7 space-y-6">
                     <div class="space-y-2">
-                        <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Presentación Ejecutiva</span>
+                        <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Propuesta de Valor</span>
                         <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Resumen Profesional</h2>
                         <div class="h-1 w-20 bg-teal-400 rounded-full"></div>
                     </div>
                     <p class="text-slate-300 leading-relaxed text-base">
-                        Líder estratégico con más de 15 años de trayectoria, especializado en la creación y dirección de programas académicos de alta especialidad y gestión de proyectos complejos. Creador de la <strong class="text-teal-300 font-medium">Licenciatura en Gestión y Administración Marítima y Portuaria (LGAMP)</strong>, experto en vincular la formación profesional con las necesidades reales del mercado laboral.
+                        <strong>Líder estratégico con más de 15 años de trayectoria multidisciplinaria</strong>, especializado en el diseño e implementación de programas educativos de alta especialidad y en la dirección operativa de megaproyectos de infraestructura marítima y dragado. 
                     </p>
                     <p class="text-slate-300 leading-relaxed text-base">
-                        Experiencia probada gestionando equipos multidisciplinarios y presupuestos de gran escala, con un enfoque implacable en resultados, cumplimiento de estándares (DGUTYP/CIEES) y la mejora continua de la calidad académica e industrial.
+                        Reconocido como co-diseñador nacional y especialista de alta especialización en obras marítimas para la fundamentación y creación de la <strong>Licenciatura en Gestión y Administración Marítima y Portuaria (LGAMP)</strong>, liderando con éxito su despliegue, vinculación y regionalización en Sonora. 
+                    </p>
+                    <p class="text-slate-300 leading-relaxed text-base">
+                        Experto en la dirección de equipos docentes y técnicos de alto rendimiento, gestión de presupuestos a gran escala y aseguramiento de la calidad bajo rigurosos estándares institucionales e internacionales. Investigador activo en geología marina y pionero en la integración didáctica de herramientas de <strong>Inteligencia Artificial aplicada a la ingeniería</strong>.
                     </p>
 
-                    <!-- Key Pillars -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
                         <div class="flex gap-3">
                             <div class="w-10 h-10 rounded-lg bg-teal-500/10 flex items-center justify-center text-teal-400 shrink-0">
                                 <i class="fa-solid fa-graduation-cap"></i>
                             </div>
                             <div>
-                                <h5 class="font-bold text-white text-sm">Innovación Curricular</h5>
-                                <p class="text-xs text-slate-400 mt-0.5">Diseño e implantación de carreras técnicas y profesionales de alto impacto.</p>
+                                <h5 class="font-bold text-white text-sm">Calidad Institucional</h5>
+                                <p class="text-xs text-slate-400 mt-0.5">Gestión de cumplimiento normativo ante la DGUTYP y los comités CIEES.</p>
                             </div>
                         </div>
                         <div class="flex gap-3">
                             <div class="w-10 h-10 rounded-lg bg-teal-500/10 flex items-center justify-center text-teal-400 shrink-0">
-                                <i class="fa-solid fa-ship"></i>
+                                <i class="fa-solid fa-helmet-safety"></i>
                             </div>
                             <div>
-                                <h5 class="font-bold text-white text-sm">Ingeniería y Dragado</h5>
-                                <p class="text-xs text-slate-400 mt-0.5">Gestión nacional e internacional de proyectos de dragado y obras marinas.</p>
+                                <h5 class="font-bold text-white text-sm">Operaciones Marítimas</h5>
+                                <p class="text-xs text-slate-400 mt-0.5">Gestión técnica y supervisión operacional de dragado en puertos nacionales.</p>
                             </div>
                         </div>
                     </div>
@@ -281,93 +276,93 @@
     </section>
 
     <!-- Key Skills Section -->
-    <section id="habilidades" class="py-24 bg-marine-950 relative">
+    <section id="habilidades" class="py-24 bg-marine-955 relative border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center space-y-3 mb-16">
-                <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Especialidades</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Habilidades Clave</h2>
+                <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Competencias Gerenciales</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Habilidades Clave Integradas</h2>
                 <div class="h-1 w-20 bg-teal-400 rounded-full mx-auto"></div>
-                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Competencias de alta dirección integradas para potenciar el entorno académico e industrial.</p>
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Fusión metodológica diseñada para liderar y optimizar infraestructuras físicas y del conocimiento.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Skill Card 1 -->
+                <!-- Skill 1 -->
                 <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-teal-500/30 transition-all group">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-4 group-hover:bg-teal-500/20 transition-all">
-                        <i class="fa-solid fa-award text-xl"></i>
+                        <i class="fa-solid fa-anchor text-xl"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Gestión de Calidad Académica</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Diseño curricular avanzado, evaluación integral de programas educativos y cumplimiento estricto de estándares institucionales (DGUTYP/CIEES).
+                    <h3 class="text-lg font-bold text-white mb-2">Enlace Puerto-Academia</h3>
+                    <p class="text-slate-450 text-xs leading-relaxed">
+                        Experto en conectar demandas industriales portuarias y de dragado con el aula. Coordinación de Análisis Situacionales de Trabajo (AST) para traducir necesidades operativas reales en mapas curriculares nacionales (LGAMP).
                     </p>
                 </div>
 
-                <!-- Skill Card 2 -->
+                <!-- Skill 2 -->
                 <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-teal-500/30 transition-all group">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-4 group-hover:bg-teal-500/20 transition-all">
-                        <i class="fa-solid fa-handshake text-xl"></i>
+                        <i class="fa-solid fa-square-poll-vertical text-xl"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Vinculación Universidad-Empresa</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Desarrollo de alianzas estratégicas con líderes de industria portuaria para empleabilidad y programas de Semestre Empresarial / Educación Dual.
+                    <h3 class="text-lg font-bold text-white mb-2">Aseguramiento de Calidad</h3>
+                    <p class="text-slate-450 text-xs leading-relaxed">
+                        Sólido cumplimiento de exigentes estándares institucionales y educativos (DGUTYP, CIEES) así como protocolos internacionales de seguridad y calidad (ISO 14001, CTPAT, metodologías NINA de Boskalis).
                     </p>
                 </div>
 
-                <!-- Skill Card 3 -->
+                <!-- Skill 3 -->
                 <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-teal-500/30 transition-all group">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-4 group-hover:bg-teal-500/20 transition-all">
-                        <i class="fa-solid fa-users text-xl"></i>
+                        <i class="fa-solid fa-users-gear text-xl"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Liderazgo y Gestión de Talento</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Selección experta, contratación estratégica, capacitación continua y evaluación de desempeño para personal docente y administrativo.
+                    <h3 class="text-lg font-bold text-white mb-2">Gestión de Talento Multidisciplinario</h3>
+                    <p class="text-slate-450 text-xs leading-relaxed">
+                        Liderazgo directivo de equipos para la selección, contratación, capacitación continua y evaluación de desempeño tanto de cuerpos docentes de nivel superior como de personal técnico y de ingeniería civil costera.
                     </p>
                 </div>
 
-                <!-- Skill Card 4 -->
+                <!-- Skill 4 -->
                 <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-teal-500/30 transition-all group">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-4 group-hover:bg-teal-500/20 transition-all">
-                        <i class="fa-solid fa-chart-line text-xl"></i>
+                        <i class="fa-solid fa-chart-pie text-xl"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-2">Planeación Operativa & KPIs</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Elaboración eficiente de oferta académica, asignación de recursos presupuestales y control riguroso de indicadores de retención y satisfacción.
+                    <p class="text-slate-450 text-xs leading-relaxed">
+                        Destreza en administración eficiente de recursos financieros, optimización del mapa académico del campus, control analítico de matrícula y retención, y planificación de rendimientos de dragado en obras portuarias.
                     </p>
                 </div>
 
-                <!-- Skill Card 5 -->
+                <!-- Skill 5 -->
                 <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-teal-500/30 transition-all group">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-4 group-hover:bg-teal-500/20 transition-all">
-                        <i class="fa-solid fa-headset text-xl"></i>
+                        <i class="fa-solid fa-arrows-spin text-xl"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Mediación y Atención Estudiantil</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Resolución pacífica y profesional de conflictos complejos y servicio de excelencia a alumnos, padres de familia e instituciones asociadas.
+                    <h3 class="text-lg font-bold text-white mb-2">Optimización de Procesos</h3>
+                    <p class="text-slate-450 text-xs leading-relaxed">
+                        Certificado Lean Six Sigma White Belt. Competencia para optimización operativa, mediación de conflictos complejos, atención al cliente/alumno y resolución de cuellos de botella aplicando herramientas de mejora continua.
                     </p>
                 </div>
 
-                <!-- Skill Card 6 -->
+                <!-- Skill 6 -->
                 <div class="bg-slate-900/40 p-6 rounded-2xl border border-slate-800 hover:border-teal-500/30 transition-all group">
                     <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-4 group-hover:bg-teal-500/20 transition-all">
-                        <i class="fa-solid fa-brain text-xl"></i>
+                        <i class="fa-solid fa-laptop-code text-xl"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Ingeniería de Procesos & Tecnología</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Uso de herramientas avanzadas como AutoCAD, Python, CATIA, Minitab y metodologías Lean Six Sigma White Belt aplicadas a la educación e ingeniería.
+                    <h3 class="text-lg font-bold text-white mb-2">Tecnología Avanzada de Datos</h3>
+                    <p class="text-slate-450 text-xs leading-relaxed">
+                        Uso de software técnico especializado en ingeniería (AutoCAD, CivilCAD) complementado con herramientas analíticas de modelación estadística, análisis espacial e Inteligencia Artificial (Python, MATLAB, Minitab, Surfer).
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Interactive Experience Section -->
+    <!-- Experiencia Laboral Section -->
     <section id="experiencia" class="py-24 bg-marine-900/40 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center space-y-3 mb-16">
                 <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Trayectoria</span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Experiencia Laboral</h2>
                 <div class="h-1 w-20 bg-teal-400 rounded-full mx-auto"></div>
-                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Explora mi doble perfil profesional mediante los filtros dinámicos.</p>
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Explora mi trayectoria laboral utilizando los filtros de clasificación especializada.</p>
                 
                 <!-- Filter Controls -->
                 <div class="flex flex-wrap justify-center gap-3 pt-6">
@@ -375,18 +370,18 @@
                         Todo el Historial
                     </button>
                     <button onclick="filterExperience('academia')" id="btn-exp-academia" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all bg-slate-800 text-slate-300 hover:text-white border border-slate-700">
-                        <i class="fa-solid fa-graduation-cap mr-1.5"></i> Ámbito Académico / Docencia
+                        <i class="fa-solid fa-graduation-cap mr-1.5"></i> Gestión Académica & Docencia
                     </button>
                     <button onclick="filterExperience('ingenieria')" id="btn-exp-ingenieria" class="px-5 py-2.5 rounded-xl font-semibold text-sm transition-all bg-slate-800 text-slate-300 hover:text-white border border-slate-700">
-                        <i class="fa-solid fa-anchor mr-1.5"></i> Dragado & Ingeniería Civil
+                        <i class="fa-solid fa-ship mr-1.5"></i> Dirección de Obras & Dragado
                     </button>
                 </div>
             </div>
 
-            <!-- Timeline of Work Experience -->
+            <!-- Experience Timeline -->
             <div class="relative border-l-2 border-slate-800 ml-4 md:ml-10 space-y-12">
                 
-                <!-- Experience Item 1: Vizcaya -->
+                <!-- Vizcaya -->
                 <div class="exp-item exp-academia relative pl-8 md:pl-12 transition-all duration-300">
                     <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
                     <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
@@ -395,84 +390,97 @@
                             <h3 class="text-xl font-bold text-white">Profesor Universitario de Licenciatura</h3>
                             <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Universidad Vizcaya de las Américas</span>
                         </div>
-                        <p class="text-slate-400 text-sm mb-4">Impartición de cátedras avanzadas de matemáticas avanzadas y de ingeniería, garantizando altos estándares pedagógicos.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Cálculo Integral</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Cálculo Diferencial</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Metrología</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Ecuaciones Diferenciales</span>
+                        <p class="text-slate-450 text-xs mb-3">Impartición de cátedras avanzadas de matemáticas aplicadas a la ingeniería y metrología industrial.</p>
+                        
+                        <div class="space-y-1.5 mb-4">
+                            <span class="text-xs font-bold text-slate-300 block">Cátedras Impartidas (Área Ciencias Exactas):</span>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/60">Cálculo Integral</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/60">Cálculo Diferencial</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/60">Cálculo Vectorial</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/60">Ecuaciones Diferenciales</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/60">Metrología</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Experience Item 2: ITSON -->
+                <!-- ITSON -->
                 <div class="exp-item exp-academia relative pl-8 md:pl-12 transition-all duration-300">
                     <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
                     <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
                         <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block mb-1">Agosto 2023 - Actual</span>
                         <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
-                            <h3 class="text-xl font-bold text-white">Profesor Universitario & Líder de Bloque (Álgebra Lineal 2025)</h3>
+                            <h3 class="text-xl font-bold text-white">Profesor de Ingeniería & Líder de Bloque (Álgebra Lineal 2025)</h3>
                             <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Instituto Tecnológico de Sonora (ITSON)</span>
                         </div>
                         
-                        <!-- Core Leadership highlights inside ITSON -->
-                        <div class="mb-4 space-y-2">
-                            <p class="text-slate-300 text-sm font-semibold">Responsabilidades Clave de Liderazgo:</p>
-                            <ul class="list-none space-y-1.5 text-xs text-slate-450 text-slate-300 pl-2">
-                                <li class="flex gap-2"><i class="fa-solid fa-circle-check text-teal-400 mt-0.5 shrink-0"></i> Coordinación del bloque docente para homologar visiones de competencia curricular.</li>
-                                <li class="flex gap-2"><i class="fa-solid fa-circle-check text-teal-400 mt-0.5 shrink-0"></i> Integración de reportes cualitativos y cuantitativos para diseño de planes de mejora académica.</li>
-                                <li class="flex gap-2"><i class="fa-solid fa-circle-check text-teal-400 mt-0.5 shrink-0"></i> Monitoreo constante de calidad docente para incrementar satisfacción estudiantil.</li>
-                            </ul>
+                        <div class="mb-4 space-y-3">
+                            <div class="p-3 bg-teal-950/40 border border-teal-500/20 rounded-xl">
+                                <span class="text-xs font-bold text-teal-300 flex items-center gap-1.5"><i class="fa-solid fa-people-roof"></i> Gestión de Bloque Docente (Semestre Agosto-Diciembre 2025):</span>
+                                <p class="text-slate-300 text-xs leading-relaxed mt-1">
+                                    Coordiné y guié al grupo de maestros del bloque de Álgebra Lineal para homologar la competencia curricular. Integré los reportes cuantitativos y cualitativos semestrales para consolidar evidencias y elaborar propuestas de mejora en el grupo de gestión académica.
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Electromagnetismo</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Python Aplicado</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Métodos Numéricos</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Estadística Inferencial</span>
+                        <div class="space-y-2">
+                            <span class="text-xs font-bold text-slate-300 block">Especialidades Impartidas (Cálculo, Python e Ingeniería):</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] border border-slate-700/50">Métodos Numéricos con Python</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] border border-slate-700/50">Matemáticas Computacionales (Python)</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] border border-slate-700/50">Estadística Inferencial</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] border border-slate-700/50">Resistencia de Materiales</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] border border-slate-700/50">Electromagnetismo (Teoría & Lab)</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] border border-slate-700/50">Matemáticas Discretas</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Experience Item 3: UTG (Highlight Creador LGAMP) -->
+                <!-- UTG -->
                 <div class="exp-item exp-academia relative pl-8 md:pl-12 transition-all duration-300">
-                    <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-sky-500 border-4 border-marine-950"></div>
-                    <div class="bg-gradient-to-r from-slate-900/80 to-marine-900/40 p-6 rounded-2xl border-2 border-teal-500/30 glassmorphism relative overflow-hidden">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
+                    <div class="bg-slate-900/60 p-6 rounded-2xl border-2 border-teal-500/20 glassmorphism relative overflow-hidden">
                         <div class="absolute top-0 right-0 bg-teal-500 text-marine-950 font-black text-[10px] uppercase tracking-wider py-1 px-4 rounded-bl-xl shadow-md">
-                            Hito Profesional
+                            Desarrollo de Programa Nacional
                         </div>
                         <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block mb-1">Enero 2020 - Actual</span>
                         <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
-                            <h3 class="text-xl font-bold text-white">Profesor Universitario & Creador / Gestor LGAMP</h3>
+                            <h3 class="text-xl font-bold text-white">Profesor Universitario & Co-diseñador Nacional de la LGAMP</h3>
                             <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Universidad Tecnológica de Guaymas</span>
                         </div>
 
-                        <!-- Special High Impact Achievements UTG -->
-                        <div class="space-y-4 mb-4 text-sm">
-                            <div class="p-4 bg-teal-950/40 border border-teal-500/20 rounded-xl space-y-2">
-                                <span class="font-bold text-white flex items-center gap-2"><i class="fa-solid fa-shield-halved text-teal-400"></i> Creador del Programa Académico LGAMP:</span>
-                                <p class="text-slate-300 text-xs leading-relaxed">
-                                    Lideré el diseño integral, fundamentación técnica a través de Análisis Situacionales de Trabajo (AST) y la validación oficial del plan ante la DGUTYP para la <strong>Licenciatura en Gestión y Administración Marítima y Portuaria (LGAMP)</strong>.
+                        <div class="space-y-3 mb-4 text-xs">
+                            <div class="p-3 bg-teal-950/30 border border-teal-500/15 rounded-xl">
+                                <span class="font-bold text-white block">Logro Insignia: Liderazgo y Co-diseño de la LGAMP</span>
+                                <p class="text-slate-350 mt-1">
+                                    Participé de manera activa en el comité técnico a nivel nacional aportando un perfil de alta especialización técnica en ingeniería costera y operaciones portuarias. Lideré en Sonora la fundamentación técnica mediante Análisis Situacionales de Trabajo (AST), validando el plan de estudios y el perfil de egreso directamente alineado con la industria portuaria y el Plan Sonora, logrando la validación oficial ante la DGUTYP.
                                 </p>
                             </div>
-                            <div class="space-y-1.5 text-xs text-slate-300">
-                                <p class="font-semibold text-white">Logros clave:</p>
-                                <p class="flex gap-2"><i class="fa-solid fa-arrow-right text-teal-400"></i> Establecimiento de alianzas de vinculación con SSA Marine y Hutchison Ports.</p>
-                                <p class="flex gap-2"><i class="fa-solid fa-arrow-right text-teal-400"></i> Ganador del galardón de <strong>Profesor Mejor Evaluado de la Institución 2022-2023</strong>.</p>
-                                <p class="flex gap-2"><i class="fa-solid fa-arrow-right text-teal-400"></i> Mánager de programas de capacitación especializados para la CONAPESCA (2023 y 2024).</p>
+                            <div class="p-3 bg-slate-950/40 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-400 block"><i class="fa-solid fa-award"></i> Distinciones e Incidencia Adicional:</span>
+                                <p class="text-slate-300">✓ Reconocido como el <strong>Profesor mejor evaluado de la Universidad (Ciclo 2022-2023)</strong>.</p>
+                                <p class="text-slate-300">✓ Mánager y Facilitador de cursos especializados dirigidos a personal de la <strong>CONAPESCA</strong> (Banca Electrónica, mayo-diciembre de 2023 y 2024).</p>
+                                <p class="text-slate-300">✓ Vinculación con SSA Marine y Hutchison Ports para empleabilidad académica.</p>
                             </div>
                         </div>
 
-                        <div class="flex flex-wrap gap-1.5">
-                            <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px]">Logística de Materiales</span>
-                            <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px]">Administración de Producción</span>
-                            <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px]">Tutorías</span>
-                            <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px]">Seguridad e Higiene Industrial</span>
+                        <div class="space-y-1.5">
+                            <span class="text-xs font-bold text-slate-350 block">Materias Impartidas (Operaciones, Administración, Exactas e Ingeniería):</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[9px]">Distribución de Planta</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[9px]">Control Estadístico de Procesos</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[9px]">Logística de Materiales</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[9px]">Administración de la Producción II</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[9px]">Seguridad e Higiene Industrial</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[9px]">Formulación y Evaluación de Proyectos</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Experience Item 4: Interamericana -->
+                <!-- Interamericana -->
                 <div class="exp-item exp-academia relative pl-8 md:pl-12 transition-all duration-300">
                     <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
                     <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
@@ -481,16 +489,22 @@
                             <h3 class="text-xl font-bold text-white">Profesor Universitario de Ingeniería Civil</h3>
                             <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Universidad Interamericana de Guaymas</span>
                         </div>
-                        <p class="text-slate-400 text-sm mb-4">Especialización académica en el área de obras de infraestructura, pavimentos, estructuras avanzadas y mecánica de suelos.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Topografía</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Software Ingeniería Civil</span>
-                            <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">Mecánica de Suelos</span>
+                        <p class="text-slate-450 text-xs mb-3">Impartición de cátedras de alta especialización técnica enfocadas al cálculo estructural, geotecnia y vialidades.</p>
+                        
+                        <div class="space-y-1.5">
+                            <span class="text-xs font-bold text-slate-300 block">Cátedras Impartidas:</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/50">Mecánica de Suelos Aplicada</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/50">Diseño y Construcción de Pavimentos</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/50">Análisis Estructural Avanzado</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/50">Topografía & Carreteras</span>
+                                <span class="px-2.5 py-1 rounded bg-slate-800/80 text-slate-300 text-xs border border-slate-700/50">Diseño de Elementos de Acero</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Experience Item 5: Grupo Gorsa -->
+                <!-- Grupo Gorsa -->
                 <div class="exp-item exp-ingenieria relative pl-8 md:pl-12 transition-all duration-300">
                     <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
                     <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
@@ -499,38 +513,42 @@
                             <h3 class="text-xl font-bold text-white">Gerente Nacional de la División de Dragado e Infraestructura</h3>
                             <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Gorsa Dragados e Infraestructura, S.A. de C.V.</span>
                         </div>
-                        <p class="text-slate-300 text-sm mb-3 font-semibold">Proyectos Destacados Dirigidos:</p>
-                        <div class="space-y-3 mb-4 text-xs">
+                        <p class="text-slate-300 text-sm mb-3 font-semibold">Proyectos Destacados de Obra Dirigidos:</p>
+                        <div class="space-y-3 text-xs">
                             <div class="p-3 bg-slate-950/50 rounded-xl border border-white/5">
-                                <span class="font-bold text-white">Zanja Inmisario/Emisario del Proyecto CCC Empalme I</span>
-                                <p class="text-slate-400 mt-0.5">Contrato de arrendamiento con OHL Industrial y SENER. (2018)</p>
+                                <span class="font-bold text-white">Zanja Tipo Inmisario/Emisario del Proyecto CCC Empalme I</span>
+                                <p class="text-slate-400 mt-0.5">Operación técnica de arrendamiento de equipo especializado con OHL Industrial y SENER (enero 2018 - abril 2018).</p>
                             </div>
                             <div class="p-3 bg-slate-950/50 rounded-xl border border-white/5">
-                                <span class="font-bold text-white">Zanja Inmisario/Emisario CCC Empalme, Sonora</span>
-                                <p class="text-slate-400 mt-0.5">Subcontrato con Constructora Manzanillo, S.A. de C.V. (COMSA) (2016 - 2017)</p>
+                                <span class="font-bold text-white">Zanja Tipo Inmisario/Emisario CCC Empalme, Sonora</span>
+                                <p class="text-slate-400 mt-0.5">Subcontratación directa de supervisión y control con Constructora Manzanillo, S.A. de C.V. (COMSA) (enero 2016 – noviembre 2017).</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Experience Item 6: Tradeco / GH Maquinaria -->
+                <!-- GH Maquinaria / Tradeco -->
                 <div class="exp-item exp-ingenieria relative pl-8 md:pl-12 transition-all duration-300">
                     <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
                     <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
                         <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block mb-1">Noviembre 2015 - Enero 2017</span>
                         <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
                             <h3 class="text-xl font-bold text-white">Superintendente de Obra y Dragado</h3>
-                            <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">GH Maquinaria y Equipo / Tradeco Infraestructura</span>
+                            <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">GH Maquinaria y Equipo / Consorcio Tradeco</span>
                         </div>
-                        <p class="text-slate-400 text-sm mb-3">Dirección del Dragado de Azolve y Rectificación del Vaso de la Laguna de Regulación Churubusco (Zonas Federales del Lago de Texcoco) con dependencias como CONAGUA.</p>
-                        <div class="flex flex-wrap gap-2 text-xs">
-                            <span class="px-2 py-1 bg-slate-800 text-slate-300 rounded-lg">CONAGUA-CGPEAS-FED-OP-140/2015</span>
-                            <span class="px-2 py-1 bg-slate-800 text-slate-300 rounded-lg">CONAGUA-CGPEAS-FED-OP-139/2015</span>
+                        <p class="text-slate-300 text-xs mb-3">Supervisión en la rectificación y dragado del Vaso de la Laguna de Regulación Churubusco (Zonas Federales del Lago de Texcoco) coordinado con dependencias de CONAGUA.</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs mt-3">
+                            <div class="bg-slate-950/50 p-2.5 rounded-lg border border-white/5">
+                                <span class="font-bold text-slate-300">Contrato Norte No. CONAGUA-CGPEAS-FED-OP-140/2015-INV</span>
+                            </div>
+                            <div class="bg-slate-950/50 p-2.5 rounded-lg border border-white/5">
+                                <span class="font-bold text-slate-300">Contrato Sur No. CONAGUA-CGPEAS-FED-OP-139/2015-INV</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Experience Item 7: Dragamex Boskalis -->
+                <!-- Dragamex Boskalis -->
                 <div class="exp-item exp-ingenieria relative pl-8 md:pl-12 transition-all duration-300">
                     <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
                     <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
@@ -539,12 +557,36 @@
                             <h3 class="text-xl font-bold text-white">Superintendente Auxiliar de Operaciones</h3>
                             <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Dragamex (Filial de Boskalis International)</span>
                         </div>
-                        <p class="text-slate-400 text-sm mb-4">Gestión y control operativo en 14 mega-proyectos de dragado de construcción, reclamación marina y mantenimiento de puertos en México (Lázaro Cárdenas, Coatzacoalcos, Laguna Verde, Tampico, Progreso y Mazatlán).</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/10 text-teal-300 text-xs">CMSA Container Terminal Phase I</span>
-                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/10 text-teal-300 text-xs">Boskalis Quality Standard</span>
-                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/10 text-teal-300 text-xs">Hutchison Ports Projects</span>
+                        <p class="text-slate-350 text-xs mb-4">Dirección y control de operaciones marítimas en **14 megaproyectos de dragado**, reclamación de tierras marinas y mantenimiento portuario en las terminales con mayor tráfico de México (Progreso, Tampico, Lázaro Cárdenas, Cuyutlán, Laguna Verde y Coatzacoalcos).</p>
+                        
+                        <!-- Mini grid of Boskalis projects -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs mb-4">
+                            <div class="p-2.5 bg-slate-950/50 rounded-lg border border-white/5">
+                                <span class="font-bold text-white">Dredging and Reclamation CMSA</span>
+                                <span class="block text-slate-400 text-[10px]">Container Terminal Phase I (Manzanillo, Colima)</span>
+                            </div>
+                            <div class="p-2.5 bg-slate-950/50 rounded-lg border border-white/5">
+                                <span class="font-bold text-white">Hutchison Ports Projects</span>
+                                <span class="block text-slate-400 text-[10px]">Terminal Portuaria de Contenedores de Lázaro Cárdenas</span>
+                            </div>
                         </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/10 text-teal-300 text-xs font-semibold">ISO 14001 Standards</span>
+                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/10 text-teal-300 text-xs font-semibold">Metodologías de Seguridad NINA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- API Guaymas -->
+                <div class="exp-item exp-ingenieria relative pl-8 md:pl-12 transition-all duration-300">
+                    <div class="absolute -left-[11px] top-1 w-5 h-5 rounded-full bg-teal-400 border-4 border-marine-950"></div>
+                    <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-850 glassmorphism">
+                        <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block mb-1">Febrero 1998 - Diciembre 2000</span>
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+                            <h3 class="text-xl font-bold text-white">Supervisor de Maniobras Portuarias</h3>
+                            <span class="text-sm px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 font-medium self-start md:self-auto">Administración Portuaria Integral (API) Guaymas</span>
+                        </div>
+                        <p class="text-slate-450 text-xs">Supervisión y logística operativa de maniobras de carga-descarga de materiales e insumos pesados tanto en patios de maniobras como a bordo de buques mercantes.</p>
                     </div>
                 </div>
 
@@ -552,70 +594,70 @@
         </div>
     </section>
 
-    <!-- Academic Research & AI Integration Section -->
-    <section id="proyectos" class="py-24 bg-marine-950 relative overflow-hidden">
+    <!-- Academic Research & CIBNOR Section -->
+    <section id="investigacion" class="py-24 bg-marine-950 relative overflow-hidden border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 
-                <!-- Left: Recent Science/AI Achievement Card -->
+                <!-- Left: Scientific Publication card -->
                 <div class="lg:col-span-5 space-y-6 order-last lg:order-first">
                     <div class="bg-gradient-to-br from-slate-900 to-marine-950 p-8 rounded-3xl border border-teal-500/30 shadow-2xl relative group">
                         <div class="absolute -top-4 -left-4 w-12 h-12 bg-teal-500 rounded-2xl flex items-center justify-center text-marine-950 font-black shadow-lg shadow-teal-500/20">
-                            <i class="fa-solid fa-microchip text-xl"></i>
+                            <i class="fa-solid fa-brain text-xl"></i>
                         </div>
                         <div class="text-right">
-                            <span class="text-xs bg-teal-500/10 text-teal-300 font-bold px-3 py-1 rounded-full border border-teal-500/20">Marzo 12, 2026</span>
+                            <span class="text-xs bg-teal-500/10 text-teal-300 font-bold px-3 py-1 rounded-full border border-teal-500/20">Marzo 2026</span>
                         </div>
                         
                         <div class="mt-6 space-y-3">
-                            <span class="text-xs font-bold text-slate-400 tracking-wider uppercase block">Capítulo de Libro Destacado</span>
+                            <span class="text-xs font-bold text-slate-400 tracking-wider uppercase block">Capítulo de Libro Publicado</span>
                             <h3 class="text-xl font-bold text-white font-serif group-hover:text-teal-400 transition-colors">
                                 "Del andamiaje con inteligencia artificial a la autonomía: evaluación de código estadístico en ingeniería"
                             </h3>
                             <p class="text-slate-400 text-xs leading-relaxed">
-                                Publicación sobre el impacto, metodologías y retroalimentación de la IA aplicada a la modelación estadística en la ingeniería superior.
+                                Investigación sobre el andamiaje didáctico mediante modelos de Inteligencia Artificial para el fortalecimiento de competencias en estudiantes de ingeniería superior.
                             </p>
                         </div>
 
                         <div class="mt-6 pt-6 border-t border-slate-800 flex justify-between items-center text-sm">
                             <span class="text-slate-400 text-xs">Editorial Transdigital</span>
-                            <a href="https://www.editorial.transdigital.mx/capitulo-26-del-andamiaje-con-inteligencia-artificial-a-la-autonomia-evaluacion-de-codigo-estadistico-en-ingenieria/" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:text-teal-300 font-bold inline-flex items-center gap-1">
-                                Leer Publicación <i class="fa-solid fa-up-right-from-square text-xs"></i>
+                            <a href="https://www.editorial.transdigital.mx/capitulo-26-del-andamiaje-con-inteligencia-artificial-a-la-autonomia-evaluacion-de-codigo-estadistico-en-ingenieria/" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:text-teal-300 font-bold inline-flex items-center gap-1 text-xs">
+                                Ver Capítulo <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Right: Text Section explaining potential -->
+                <!-- Right: Research and CIBNOR details -->
                 <div class="lg:col-span-7 space-y-6">
                     <div class="space-y-2">
-                        <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Producción Científica</span>
-                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Aportación de Vanguardia</h2>
+                        <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Ciencias de la Tierra & Marinas</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Investigación & CIBNOR</h2>
                         <div class="h-1 w-20 bg-teal-400 rounded-full"></div>
                     </div>
                     <p class="text-slate-300 leading-relaxed text-base">
-                        Además de mi rol docente e industrial, participo como investigador de frontera en el análisis geomórfico y el uso de tecnologías exponenciales. Trabajo activamente en la modelación ambiental y en optimizar el aprendizaje técnico mediante <strong class="text-teal-300">Inteligencia Artificial</strong>.
+                        Desde 2004, me he desempeñado como <strong>Residente-Tesista y Colaborador Honorario en el Centro de Investigaciones Biológicas del Noroeste, S.C. (CIBNOR)</strong>. He participado activamente en la recolección, análisis de laboratorio y generación de cartografía y reportes técnicos para sistemas lagunares, acuícolas y costeros de México.
                     </p>
 
                     <!-- Congress participations & Research areas -->
                     <div class="space-y-4">
-                        <h4 class="text-sm font-semibold text-white uppercase tracking-wider">Líneas de Investigación e Incidencia:</h4>
+                        <h4 class="text-xs font-semibold text-white uppercase tracking-wider">Aportaciones Clave e Incidencia Científica:</h4>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-slate-300">
-                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-800 flex items-start gap-2">
-                                <i class="fa-solid fa-chevron-right text-teal-400 mt-0.5"></i>
-                                <span>Sedimentología Ambiental y Geomorfología de Sistemas Lagunares.</span>
+                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-850 flex items-start gap-2.5">
+                                <i class="fa-solid fa-flask text-teal-400 mt-0.5"></i>
+                                <span>Análisis de laboratorio de sedimentología ambiental e interpretación fisicoquímica de núcleos de suelo.</span>
                             </div>
-                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-800 flex items-start gap-2">
-                                <i class="fa-solid fa-chevron-right text-teal-400 mt-0.5"></i>
-                                <span>Modelación Matemática con Python y MATLAB aplicada a la Industria.</span>
+                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-850 flex items-start gap-2.5">
+                                <i class="fa-solid fa-globe text-teal-400 mt-0.5"></i>
+                                <span>Miembro Investigador de la Red Nacional de Áreas Naturales Protegidas (RENAMP).</span>
                             </div>
-                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-800 flex items-start gap-2">
-                                <i class="fa-solid fa-chevron-right text-teal-400 mt-0.5"></i>
-                                <span>Redes de Desastres Asociados a Fenómenos Hidrometeorológicos (REDESClim).</span>
+                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-850 flex items-start gap-2.5">
+                                <i class="fa-solid fa-cloud-showers-water text-teal-400 mt-0.5"></i>
+                                <span>Miembro de la Red Temática de Investigación en Desastres Hidrometeorológicos (REDESClim).</span>
                             </div>
-                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-800 flex items-start gap-2">
-                                <i class="fa-solid fa-chevron-right text-teal-400 mt-0.5"></i>
-                                <span>Evaluación de Competencias y Retos de la Educación Superior Global.</span>
+                            <div class="p-3 bg-slate-900/50 rounded-xl border border-slate-850 flex items-start gap-2.5">
+                                <i class="fa-solid fa-map-location-dot text-teal-400 mt-0.5"></i>
+                                <span>Diseño cartográfico costero de batimetría y granulometría en Sonora y BCS.</span>
                             </div>
                         </div>
                     </div>
@@ -625,131 +667,128 @@
         </div>
     </section>
 
-    <!-- Education & Training Section -->
+    <!-- Education & Academic Degrees -->
     <section id="educacion" class="py-24 bg-marine-900/30 border-t border-slate-850">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center space-y-3 mb-16">
-                <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Formación Superior</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Educación & Grados</h2>
+                <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Grados Académicos</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Formación Profesional</h2>
                 <div class="h-1 w-20 bg-teal-400 rounded-full mx-auto"></div>
                 <p class="text-slate-400 max-w-2xl mx-auto text-sm">Respaldo profesional validado por el Sistema Nacional de Cédulas Profesionales.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Master Degree -->
-                <div class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800 relative hover:scale-[1.02] transition-all flex flex-col justify-between">
+                <!-- Maestría -->
+                <div class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800 hover:scale-[1.02] transition-all flex flex-col justify-between">
                     <div>
                         <div class="flex justify-between items-start mb-6">
                             <span class="text-xs bg-teal-500/10 text-teal-300 font-bold px-3 py-1 rounded-full">2005-2007</span>
                             <span class="text-[10px] text-teal-400 font-bold uppercase tracking-wider">Cédula: 6536267</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2 font-serif">Maestría en Ciencias en Manejo de Zona Costera</h3>
-                        <p class="text-slate-400 text-sm mb-4">Evaluación de Impacto Ambiental. Graduado con honores (Segundo Lugar de Aprovechamiento).</p>
+                        <p class="text-slate-400 text-xs mb-3">Especialización en Evaluación de Impacto Ambiental. Graduado con el segundo lugar nacional de aprovechamiento.</p>
                         <p class="text-slate-350 text-xs italic mb-4">"Caracterización Geomórfica Ambiental y Riesgo de la Planicie Costera del Valle de Guaymas-Empalme."</p>
                     </div>
-                    <div class="border-t border-slate-800 pt-4 text-xs text-slate-400">
-                        <i class="fa-solid fa-building-columns text-teal-400 mr-1"></i> Instituto Tecnológico de Guaymas
+                    <div class="border-t border-slate-800 pt-4 text-xs text-slate-400 flex items-center gap-2">
+                        <i class="fa-solid fa-building-columns text-teal-400"></i> Instituto Tecnológico de Guaymas
                     </div>
                 </div>
 
-                <!-- Civil Engineering -->
-                <div class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800 relative hover:scale-[1.02] transition-all flex flex-col justify-between">
+                <!-- Ingeniero Civil -->
+                <div class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800 hover:scale-[1.02] transition-all flex flex-col justify-between">
                     <div>
                         <div class="flex justify-between items-start mb-6">
                             <span class="text-xs bg-teal-500/10 text-teal-300 font-bold px-3 py-1 rounded-full">2000-2004</span>
                             <span class="text-[10px] text-teal-400 font-bold uppercase tracking-wider">Cédula: 5284409</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2 font-serif">Ingeniero Civil en Obras Marítimas</h3>
-                        <p class="text-slate-400 text-sm mb-4">Estudio sedimentológico e infraestructura costera y marítima aplicados.</p>
-                        <p class="text-slate-350 text-xs italic mb-4">"Estudio de Núcleos de Sedimentos en el Complejo Lagunar de Guaymas, Sonora."</p>
+                        <p class="text-slate-400 text-xs mb-3">Estudios de infraestructuras portuarias, dinámica del oleaje e hidráulica costera avanzada.</p>
+                        <p class="text-slate-350 text-xs italic mb-4">"Estudio de Núcleos de Sedimentos en el Complejo Lagunar de Guaymas, Sonora, México."</p>
                     </div>
-                    <div class="border-t border-slate-800 pt-4 text-xs text-slate-400">
-                        <i class="fa-solid fa-building-columns text-teal-400 mr-1"></i> Instituto Tecnológico de Guaymas
+                    <div class="border-t border-slate-800 pt-4 text-xs text-slate-400 flex items-center gap-2">
+                        <i class="fa-solid fa-building-columns text-teal-400"></i> Instituto Tecnológico de Guaymas
                     </div>
                 </div>
 
-                <!-- CONALEP Admin -->
-                <div class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800 relative hover:scale-[1.02] transition-all flex flex-col justify-between">
+                <!-- Técnico Administración -->
+                <div class="bg-slate-900/40 p-8 rounded-2xl border border-slate-800 hover:scale-[1.02] transition-all flex flex-col justify-between">
                     <div>
                         <div class="flex justify-between items-start mb-6">
-                            <span class="text-xs bg-slate-500/10 text-slate-300 font-bold px-3 py-1 rounded-full">1995-1998</span>
+                            <span class="text-xs bg-teal-500/10 text-teal-300 font-bold px-3 py-1 rounded-full">1995-1998</span>
                             <span class="text-[10px] text-teal-400 font-bold uppercase tracking-wider">Cédula: 2799386</span>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-2 font-serif">Profesional Técnico en Administración</h3>
-                        <p class="text-slate-400 text-sm mb-4">Especialidad en Empresas Comerciales. Desarrollo organizacional e integral.</p>
-                        <p class="text-slate-350 text-xs italic mb-4">"Recursos Humanos y sus Etapas en el ámbito organizacional moderno."</p>
+                        <p class="text-slate-400 text-xs mb-3">Formación en administración y estructura de recursos humanos enfocada a empresas comerciales.</p>
+                        <p class="text-slate-350 text-xs italic mb-4">"Recursos Humanos y sus Etapas dentro del entorno organizacional moderno."</p>
                     </div>
-                    <div class="border-t border-slate-800 pt-4 text-xs text-slate-400">
-                        <i class="fa-solid fa-building-columns text-teal-400 mr-1"></i> CONALEP Sonora
+                    <div class="border-t border-slate-800 pt-4 text-xs text-slate-400 flex items-center gap-2">
+                        <i class="fa-solid fa-building-columns text-teal-400"></i> CONALEP Sonora
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Searchable Courses & Directed Projects Section -->
-    <section id="cursos" class="py-24 bg-marine-950 relative border-t border-slate-850">
+    <!-- Searchable Knowledge Database (Dynamic Console) -->
+    <section id="consola" class="py-24 bg-marine-955 relative border-t border-slate-850">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center space-y-3 mb-10">
-                <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Acervo de Conocimientos</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Buscador de Cursos, Asesorías & Software</h2>
+                <span class="text-teal-400 font-bold tracking-wider uppercase text-xs">Consola de Actualización</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">Buscador de Conocimientos</h2>
                 <div class="h-1 w-20 bg-teal-400 rounded-full mx-auto"></div>
-                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Explora el vasto catálogo de mis 57 certificaciones de actualización académica, mis asesorías de titulación industrial y paqueterías de cómputo.</p>
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Explora toda mi base de datos de actualización: certificaciones de primer nivel, tesis de titulación asesoradas, ponencias e instrumentación técnica.</p>
             </div>
 
             <!-- Dashboard Controls -->
-            <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800 shadow-xl mb-8 flex flex-col md:flex-row gap-4 items-center justify-between glassmorphism">
-                <div class="relative w-full md:w-1/2">
+            <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800 shadow-xl mb-8 flex flex-col lg:flex-row gap-4 items-center justify-between glassmorphism">
+                <div class="relative w-full lg:w-1/3">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-400">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-magnifying-glass text-xs"></i>
                     </span>
-                    <input type="text" id="db-search" oninput="searchData()" placeholder="Buscar: 'Python', 'Aeronáutica', 'Matemáticas', 'Boskalis'..." class="w-full bg-slate-950 text-white placeholder-slate-500 text-sm rounded-xl pl-10 pr-4 py-3 border border-slate-800 focus:outline-none focus:border-teal-400 transition-colors">
+                    <input type="text" id="db-search" oninput="searchData()" placeholder="Buscar: 'Python', 'Aeronáutica', 'CIBNOR', 'Minitab'..." class="w-full bg-slate-950 text-white placeholder-slate-500 text-xs rounded-xl pl-10 pr-4 py-3 border border-slate-800 focus:outline-none focus:border-teal-400 transition-colors">
                 </div>
                 
-                <div class="flex flex-wrap gap-2 w-full md:w-auto">
-                    <button onclick="switchDbTab('cursos')" id="tab-cursos" class="flex-1 md:flex-none px-4 py-2 rounded-lg text-xs font-semibold uppercase bg-teal-400 text-marine-950 transition-all">Cursos & Certs (57)</button>
-                    <button onclick="switchDbTab('proyectos')" id="tab-proyectos" class="flex-1 md:flex-none px-4 py-2 rounded-lg text-xs font-semibold uppercase bg-slate-800 text-slate-300 transition-all">Tesis Asesoradas (30+)</button>
-                    <button onclick="switchDbTab('software')" id="tab-software" class="flex-1 md:flex-none px-4 py-2 rounded-lg text-xs font-semibold uppercase bg-slate-800 text-slate-300 transition-all">Software (13)</button>
+                <div class="flex flex-wrap gap-2 w-full lg:w-auto">
+                    <button onclick="switchDbTab('cursos')" id="tab-cursos" class="flex-1 lg:flex-none px-4 py-2 rounded-lg text-[11px] font-semibold uppercase bg-teal-400 text-marine-950 transition-all">Cursos & Certs (57)</button>
+                    <button onclick="switchDbTab('proyectos')" id="tab-proyectos" class="flex-1 lg:flex-none px-4 py-2 rounded-lg text-[11px] font-semibold uppercase bg-slate-800 text-slate-300 transition-all">Tesis Asesoradas (30+)</button>
+                    <button onclick="switchDbTab('reportes')" id="tab-reportes" class="flex-1 lg:flex-none px-4 py-2 rounded-lg text-[11px] font-semibold uppercase bg-slate-800 text-slate-300 transition-all">Reportes & Congresos (18)</button>
+                    <button onclick="switchDbTab('software')" id="tab-software" class="flex-1 lg:flex-none px-4 py-2 rounded-lg text-[11px] font-semibold uppercase bg-slate-800 text-slate-300 transition-all">Software & Computo (13)</button>
                 </div>
             </div>
 
-            <!-- Dynamic Output Box -->
-            <div id="dynamic-display" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-h-[500px] overflow-y-auto custom-scrollbar p-1">
-                <!-- Javascript will inject entries here dynamically -->
+            <!-- Output Display Screen -->
+            <div id="dynamic-display" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-h-[550px] overflow-y-auto custom-scrollbar p-1">
+                <!-- Injected via JavaScript -->
             </div>
         </div>
     </section>
 
-    <!-- Contact & Action Section -->
-    <section class="py-24 bg-gradient-to-t from-marine-950 to-marine-900 border-t border-slate-850">
+    <!-- Contact Section -->
+    <section class="py-24 bg-gradient-to-t from-marine-955 to-marine-900 border-t border-slate-850">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
             <div class="w-20 h-20 bg-teal-500/10 rounded-full flex items-center justify-center text-teal-400 mx-auto border border-teal-500/20">
                 <i class="fa-solid fa-paper-plane text-3xl"></i>
             </div>
             <div class="space-y-3">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">¿Listo para impulsar tu proyecto académico o de ingeniería?</h2>
-                <p class="text-slate-450 max-w-2xl mx-auto text-slate-400 text-sm">Contáctame directamente para colaboraciones institucionales, consultoría estratégica de dragado, o planeación de planes de estudio.</p>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white font-serif">¿Listo para impulsar tu proyecto académico o industrial?</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm">Contáctame directamente para colaboraciones institucionales, diseño curricular avanzado, consultoría de dragado marítimo o planeación estratégica de procesos.</p>
             </div>
 
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="mailto:favendao13@yahoo.com.mx" class="bg-gradient-to-r from-teal-500 to-sky-500 hover:opacity-95 text-marine-950 font-bold px-8 py-4 rounded-xl shadow-lg shadow-teal-500/20 transition-all inline-flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-envelope"></i> Enviar Correo Directo
+                    <i class="fa-solid fa-envelope"></i> favendao13@yahoo.com.mx
                 </a>
-                <a href="https://www.linkedin.com/in/dredgingfave" target="_blank" rel="noopener noreferrer" class="bg-slate-900 hover:bg-slate-850 text-white border border-slate-800 px-8 py-4 rounded-xl transition-all inline-flex items-center justify-center gap-2">
-                    <i class="fa-brands fa-linkedin text-lg text-teal-400"></i> Conectar por LinkedIn
+                <a href="tel:+526221035203" class="bg-slate-900 hover:bg-slate-850 text-white border border-slate-850 px-8 py-4 rounded-xl transition-all inline-flex items-center justify-center gap-2 font-semibold text-sm">
+                    <i class="fa-solid fa-phone text-teal-400"></i> +52 622-103-5203
                 </a>
-            </div>
-
-            <div class="text-xs text-slate-500 pt-4">
-                Guaymas, Sonora, México. Teléfono de contacto: +52 622-103-5203
             </div>
         </div>
     </section>
 
-    <!-- Custom Toast Message Component (No Alerts allowed) -->
+    <!-- Toaster Notification -->
     <div id="toast-message" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-slate-900 border border-teal-500/30 text-white px-5 py-3 rounded-xl shadow-2xl flex items-center gap-3">
         <i class="fa-solid fa-circle-check text-teal-400"></i>
-        <span id="toast-text" class="text-xs font-semibold">Mensaje de copiado con éxito</span>
+        <span id="toast-text" class="text-xs font-semibold">Copiado con éxito</span>
     </div>
 
     <!-- Footer -->
@@ -759,144 +798,165 @@
                 <span class="bg-slate-900 w-8 h-8 rounded-lg flex items-center justify-center text-teal-400 font-black">FA</span>
                 <span class="text-slate-400 font-semibold">M.C. Francisco G. Avendaño Esparza</span>
             </div>
-            <div class="flex gap-4">
+            <div class="flex gap-4 text-slate-400 font-medium">
                 <a href="#inicio" class="hover:text-teal-400 transition-colors">Inicio</a>
                 <a href="#experiencia" class="hover:text-teal-400 transition-colors">Experiencia</a>
-                <a href="#cursos" class="hover:text-teal-400 transition-colors">Cursos</a>
+                <a href="#consola" class="hover:text-teal-400 transition-colors">Buscador</a>
             </div>
             <div>
-                © 2026 Francisco G. Avendaño Esparza. Todos los derechos reservados.
+                © 2026 M.C. Francisco G. Avendaño Esparza. Todos los derechos reservados.
             </div>
         </div>
     </footer>
 
     <script>
-        // Data Store (Unified to satisfy requirements)
+        // Database arrays containing actual items shared by Francisco
         const COURSES_DATA = [
-            "SanaMente LibreMente: jóvenes por la paz y contra las adicciones (SEP / UNAM / ITESM) - 2026",
-            "Evaluación por competencias y herramientas de inteligencia artificial aplicadas a la docencia en las Universidades del Subsistema Tecnológico - Tula-Tepeji 2025",
-            "1er Coloquio STEAM “Retos y tendencias de la Educación Superior” - UPP 2025",
-            "Diplomado en Actuaciones Didácticas para la Impregnación y Evaluación de Competencias Genéricas - ITSON 2025",
-            "Diplomado El Nuevo Modelo Educativo 2024 para la Transformación de Universidades del Subsistema Tecnológico - DGUTYP 2025",
-            "Google: Inteligencia Artificial y productividad - Santander Open Academy 2025",
-            "Certificación en la Norma Técnica de Competencia Laboral EC0061 - CONOCER 2025",
-            "Examen Introducción Criterios Mínimos de Seguridad CTPAT - 3PP Formation 2024",
-            "Actualización Docente Constancia - Instituto Tecnológico de Sonora 2024",
-            "Taller “Diseño de Experimentos” - Instituto Tecnológico de Sonora 2024",
-            "Taller “El Cálculo a través de Geogebra” - Instituto Tecnológico de Sonora 2024",
-            "Taller “Estadística Descriptiva e Inferencial mediante el uso de Minitab” - ITSON 2024",
-            "Taller “AutoCad Básico” - Instituto Tecnológico de Sonora 2024",
-            "Taller “Construcción e Interpretación de Gráficos de Control de Procesos” - ITSON 2024",
-            "Taller “Primeros Auxilios Psicológicos” - Universidad Tecnológica de Guaymas 2024",
-            "Lean Six Sigma White Belt Certificado - International Lean Six Sigma 2024",
-            "Capacitación “Prevención de Actuación Bajo Conflicto de Interés” - UTG 2024",
-            "Capacitación “Fomento a la Denuncia en el Ámbito Escolar” - UTG 2024",
-            "1er Foro Regional de Innovación y Tecnología Educativa para Docentes - CRESON 2022",
-            "1er Congreso Nacional de Productividad y Mejora Continua - COLEGIO ING IND 2022",
-            "Taller “Liderazgo Educativo” - Universidad Tecnológica de Guaymas 2022",
-            "Formación de Formadores del Laboratorio de Aeronáutica - Mediatec UTG 2021",
-            "Curso Gateway to the 3DEXPERIENCE Platform - Mediatec 2021",
-            "Curso Diseño Mecánico - Mediatec 2021",
-            "Curso Gestión de Proyectos - Mediatec 2021",
-            "Curso Diseño de Superficies - Mediatec 2021",
-            "Curso Diseño Mecánico Avanzado - Mediatec 2021",
-            "Curso Diseño de Chapa Metálica - Mediatec 2021",
-            "Curso Maquinado Prismático - Mediatec 2021",
-            "Curso Análisis Estructural - Mediatec 2021",
-            "Curso Fluid Mechanics Validation Essentials - Mediatec 2021",
-            "Curso Optimización Topológica - Mediatec 2021",
-            "Curso Diseño de Partes Plásticas - Mediatec 2021",
-            "Curso Realidad Virtual - Mediatec 2021",
-            "Curso Manufactura Aditiva - Mediatec 2021",
-            "Curso Ingeniería Inversa - Mediatec 2021",
-            "Pautas para un Lenguaje Incluyente y sin Discriminación en la Docencia - CONAPRED 2021",
-            "Educación Superior: Retorno Seguro - IMSS 2021",
-            "Recomendaciones para un retorno seguro al trabajo ante COVID-19 - IMSS 2021",
-            "II Encuentro por la Calidad de la Educación Superior de Sonora - SEC 2021",
-            "Webinar Internacional “Diseño Instruccional en la Era Digital” - USFA 2021",
-            "1er Foro SkillTech de Actualización Académica - Skill Technology 2021",
-            "Cuidado de la Salud Mental en Situaciones de Emergencia - IMSS 2020",
-            "Plan de acción para el hogar ante COVID-19 - IMSS 2020",
-            "Todo sobre la prevención del COVID-19 - IMSS 2020",
-            "Evaluador - Consejo Estatal de Ciencia y Tecnología del Estado de Sonora 2020",
-            "Alfabetización Informacional en el Contexto de la Educación en el Mundo - COECYT 2020",
-            "MATLAB Onramp Training Course - MathWorks 2020",
-            "DSC Vision: Revolutionizing Dredge Operations - Teledyne Marine 2020",
-            "Introduction to MATLAB - MathWorks 2019",
-            "Safety Awareness Training - Royal Boskalis Westminster nv (Holland) 2012",
-            "Safety Awareness Training - Royal Boskalis Westminster nv (Holland) 2011",
-            "Instrucciones de seguridad para la carga de transporte terrestre - Dragamex 2011",
-            "Certificado NINA (No Injuries, No Accidents) - Dragamex Coatzacoalcos 2011",
-            "Hopper Simulator Course Basic - Boskalis Westminster Training Centre (The Netherlands) 2010",
-            "Introducción a las normas ISO 14001:2004 Y NMX-SAST-001 - IMNC 2010",
-            "Certificado NINA (No Injuries, No Accidents) - Dragamex Lázaro Cárdenas 2010",
-            "Curso Teórico Práctico de Combate Contra Incendios - Arcelor Mittal 2009",
-            "Seis Acciones para Salvar una Vida - Cruz Roja Mexicana 2009",
-            "Seguridad en operación de grúas y ejecución de maniobras - SCO 2008",
-            "Curso Básico de ArcView 3.2 - WWF Guaymas 2007"
+            "SEP / UNAM / ITESM - SanaMente LibreMente: Jóvenes por la paz y contra las adicciones (2026)",
+            "Universidad Tecnológica de Tula-Tepeji - Evaluación por competencias y herramientas de inteligencia artificial aplicadas a la docencia en las Universidades del Subsistema Tecnológico (2025)",
+            "Universidad Politécnica de Pachuca - 1er Coloquio STEAM “Retos y tendencias de la Educación Superior e investigación” (2025)",
+            "Instituto Tecnológico de Sonora - Diplomado en Actuaciones Didácticas para la Impregnación de Competencias Genéricas (2025)",
+            "DGUTYP - Diplomado El Nuevo Modelo Educativo 2024 para la Transformación de las Universidades del Subsistema Tecnológico (2025)",
+            "Santander Open Academy - Google: Inteligencia Artificial y Productividad (2025)",
+            "Universidad de Seguridad Pública - Certificación de Competencia Laboral EC0061 (RED CONOCER) (2025)",
+            "3PP Formation - Examen de Introducción a Criterios Mínimos de Seguridad CTPAT (2024)",
+            "Instituto Tecnológico de Sonora - Constancia de Cursos de Actualización Docente (2024)",
+            "Instituto Tecnológico de Sonora - Constancia Taller “Diseño de Experimentos” (2024)",
+            "Instituto Tecnológico de Sonora - Constancia Taller “El Cálculo a través de Geogebra” (2024)",
+            "Instituto Tecnológico de Sonora - Constancia Taller “Estadística Descriptiva e Inferencial mediante Minitab” (2024)",
+            "Instituto Tecnológico de Sonora - Constancia Taller “AutoCad Básico” (2024)",
+            "Instituto Tecnológico de Sonora - Constancia Taller “Construcción e Interpretación de Gráficos de Control de Procesos” (2024)",
+            "Universidad Tecnológica de Guaymas - Constancia Taller “Primeros Auxilios Psicológicos” (2024)",
+            "International Lean Six Sigma - Certificación Lean Six Sigma White Belt (2024)",
+            "Universidad Tecnológica de Guaymas - Capacitación “Prevención de Actuación Bajo Conflicto de Interés” (2024)",
+            "Universidad Tecnológica de Guaymas - Capacitación “Fomento a la Denuncia en el Ámbito Escolar” (2024)",
+            "CRESON - Constancia de Participación en 1er Foro Regional de Innovación y Tecnología Educativa (2022)",
+            "Colegio Nacional de Ingenieros Industriales - 1er Congreso Nacional de Productividad y Mejora Continua (2022)",
+            "Universidad Tecnológica de Guaymas - Constancia de Taller “Liderazgo Educativo” (2022)",
+            "Mediatec UTG - Formación de Formadores de Laboratorio de Aeronáutica (2021)",
+            "Mediatec - Certificado de Curso Gateway to the 3DEXPERIENCE Platform (2021)",
+            "Mediatec - Certificado de Participación en Curso Diseño Mecánico (2021)",
+            "Mediatec - Certificado de Participación en Curso Gestión de Proyectos (2021)",
+            "Mediatec - Certificado de Participación en Curso Diseño de Superficies (2021)",
+            "Mediatec - Certificado de Participación en Curso Diseño Mecánico Avanzado (2021)",
+            "Mediatec - Certificado de Participación en Curso Diseño de Chapa Metálica (2021)",
+            "Mediatec - Certificado de Participación en Curso Maquinado Prismático (2021)",
+            "Mediatec - Certificado de Participación en Curso Análisis Estructural (2021)",
+            "Mediatec - Certificado de Participación en Curso Fluid Mechanics Validation Essentials (2021)",
+            "Mediatec - Certificado de Participación en Curso Optimización Topológica (2021)",
+            "Mediatec - Certificado de Participación en Curso Diseño de Partes Plásticas (2021)",
+            "Mediatec - Certificado de Participación en Curso Realidad Virtual (2021)",
+            "Mediatec - Certificado de Participación en Curso Manufactura Aditiva (2021)",
+            "Mediatec - Certificado de Participación en Curso Ingeniería Inversa (2021)",
+            "CONAPRED - Pautas para un Lenguaje Incluyente y sin Discriminación en la Docencia (2021)",
+            "IMSS - Educación Superior: Retorno Seguro (2021)",
+            "IMSS - Recomendaciones para un Retorno Seguro al Trabajo ante COVID-19 (2021)",
+            "SEC / CEPEES - II Encuentro por la Calidad de la Educación Superior de Sonora (2021)",
+            "Universidad USFA - Webinar Internacional “Diseño Instruccional en la Era Digital” (2021)",
+            "Skill Technology - 1er Foro SkillTech de Actualización Académica (2021)",
+            "IMSS - Cuidado de la Salud Mental en Situaciones de Emergencia (2020)",
+            "IMSS - Plan de Acción para el Hogar ante COVID-19 (2020)",
+            "IMSS - Todo sobre la Prevención del COVID-19 (2020)",
+            "COECYT - Evaluador de Actividades Juveniles en Ciencia y Tecnología (2020)",
+            "COECYT - Alfabetización Informacional en el Contexto de la Educación en el Mundo (2020)",
+            "MathWorks - Certificado de Curso MATLAB Onramp (2020)",
+            "Teledyne Marine - DSC Vision: Revolutionizing Dredge Operations (2020)",
+            "MathWorks - Certificado de Curso Introduction to MATLAB (2019)",
+            "Royal Boskalis Westminster nv (Papendrecht, Holanda) - Safety Awareness Training (2012)",
+            "Royal Boskalis Westminster nv (Papendrecht, Holanda) - Safety Awareness Training (2011)",
+            "Dragamex S.A. de C.V. - Instrucciones de Seguridad para Transporte Terrestre (2011)",
+            "Dragamex S.A. de C.V. (Coatzacoalcos) - Certificado de Seguridad NINA (2011)",
+            "Boskalis Westminster Training Centre (The Netherlands) - Hopper Simulator Course Basic (2010)",
+            "IMNC - Introducción a las normas ISO 14001:2004 y NMX-SAST-001 (2010)",
+            "Dragamex S.A. de C.V. (Lázaro Cárdenas) - Certificado de Seguridad NINA (2010)",
+            "Arcelor Mittal - Curso Teórico Práctico de Combate Contra Incendios (2009)",
+            "Cruz Roja Mexicana - Seis Acciones para Salvar una Vida (2009)",
+            "SCO - Seguridad en Operación de Grúas y Ejecución de Maniobras (2008)",
+            "WWF Guaymas - Curso Básico de Sistemas de Información Geográfica ArcView 3.2 (2007)"
         ];
 
         const PROJECTS_DATA = [
-            "Reorganización y optimización de procesos en el área de calibración (TSU Mecatrónica, 2025)",
-            "Optimización y ahorro de costos en la compra de materiales MRO en TE Medical (LGNP, 2024)",
-            "Sistema de compras (Licenciatura en Gestión de Negocios y Proyectos, 2024)",
-            "Plan de Entrenamiento para el Mejoramiento de Habilidades en Materiales (Ing. Sistemas Productivos, 2023)",
-            "Plan de capacitación para mejora de desempeño en el área de almacén (Ing. Sistemas Productivos, 2023)",
-            "Mejora en flujo de material en área de embarques de Dover Precision Components (Ing. Sistemas Productivos, 2022)",
-            "Mejora de sistema de almacén para gestión logística en Ymex (Ing. Sistemas Productivos, 2022)",
-            "Reconfiguración y reacomodo de bines para mayor localización (Ing. Sistemas Productivos, 2022)",
-            "Control de sorteo en área Incoming, Empresa: TE Connectivity (Ing. Sistemas Productivos, 2022)",
-            "Control y veracidad del inventario diario (Ing. Sistemas Productivos, 2022)",
-            "Machine loading and molding capacity analysis (TSU Manufactura Aeronáutica, 2022)",
-            "Rebabeo (TSU Manufactura Aeronáutica, 2022)",
-            "Reducción de empleados en el área de ensamble de Dayton (TSU Manufactura Aeronáutica, 2022)",
-            "SMED aplicado a número de parte de alto volumen (TSU Manufactura Aeronáutica, 2022)",
-            "Representación de procesos mediante mapeo de cadena de valor en Factory 1 (Ing. Sistemas Productivos, 2021)",
-            "Reducción de tiempos en cambio de moldes (Ing. Sistemas Productivos, 2021)",
-            "Mejora del sistema de inspección para el control de calidad (Ing. Sistemas Productivos, 2021)",
-            "Reducción de scrap en máquina de corte komax (Ing. Sistemas Productivos, 2021)",
-            "Continuous improvement plan to increase efficiency in production (Ing. Sistemas Productivos, 2021)",
-            "Diseño e implementación de sistema de alarma para máquina soldar con Arduino (TSU Mecatrónica, 2021)",
-            "Indexadora para chamer (Ing. Mecatrónica, 2021)",
-            "CCF (Creating Continuous Flow) (Ing. Mecatrónica, 2021)",
-            "Diseño de máquina cortadora de anillos (Ing. Mecatrónica, 2021)",
-            "Puesta en marcha y mantto de línea SDM Position Sensing (Ing. Mecatrónica, 2021)",
-            "Crear y elaborar un diseño de un jardín xérico en la UTG (TSU Sistemas Productivos, 2020)",
-            "Diseño de jardines xéricos en biblioteca de la UTG (TSU Sistemas Productivos, 2020)",
-            "Medidas de Seguridad para Alumnos ante COVID-19 (TSU Sistemas Productivos, 2020)",
-            "Mejora organizacional en Taller Herys (TSU Manufactura Aeronáutica, 2020)",
-            "Mejora productiva y de procesos en Fluoroelastomere Polymer (TSU Manufactura Aeronáutica, 2020)",
-            "Manual de seguridad y buenas prácticas de taller (TSU Manufactura Aeronáutica, 2020)",
-            "Estandarización del Procedimiento de Operación de una Draga de Cortador en Grupo Gorsa (Ing. Sistemas Productivos, 2017)",
-            "Inducción y Recorrido técnico al Proyecto de Dragado por Draga Beachway (UTG / UIG, 2019)",
-            "Colecta de Muestras y Análisis de Suelo para Cultivo de Camarón (ITG, 2018)"
+            "Asesor de Tesis: Reorganization and optimization of processes in the calibration area (TSU Mecatrónica, UTG 2025)",
+            "Asesor de Tesis: Sistema de compras (Licenciatura en Gestión de Negocios y Proyectos, UTG 2024)",
+            "Asesor de Tesis: Optimización y ahorro de costos en la compra de materiales MRO en TE Medical (LGNP, UTG 2024)",
+            "Asesor de Tesis: Plan de Entrenamiento para el Mejoramiento de Habilidades en Materiales (Ing. Sistemas Productivos, UTG 2023)",
+            "Asesor de Tesis: Plan de capacitación para la mejora del desempeño en almacenes (Ing. Sistemas Productivos, UTG 2023)",
+            "Asesor de Tesis: Mejora en el flujo de materiales en el área de embarques de Dover Precision Components (Ing. Sistemas Productivos, UTG 2022)",
+            "Asesor de Tesis: Mejora del sistema de almacén para optimizar la gestión logística de Ymex (Ing. Sistemas Productivos, UTG 2022)",
+            "Asesor de Tesis: Reconfiguración y reacomodo de bines para mayor localización (Ing. Sistemas Productivos, UTG 2022)",
+            "Asesor de Tesis: Control de sorteo en área Incoming, Empresa: TE Connectivity (Ing. Sistemas Productivos, UTG 2022)",
+            "Asesor de Tesis: Control y veracidad del inventario diario (Ing. Sistemas Productivos, UTG 2022)",
+            "Asesor de Tesis: Machine loading and molding capacity analysis (TSU Manufactura Aeronáutica, UTG 2022)",
+            "Asesor de Tesis: Rebabeo (TSU Manufactura Aeronáutica, UTG 2022)",
+            "Asesor de Tesis: Reducción de empleados en el área de ensamble de Dayton (TSU Manufactura Aeronáutica, UTG 2022)",
+            "Asesor de Tesis: SMED aplicado a número de parte de alto volumen (TSU Manufactura Aeronáutica, UTG 2022)",
+            "Asesor de Tesis: Representación de procesos mediante un mapeo de la cadena de valor en Factory 1 (Ing. Sistemas Productivos, UTG 2021)",
+            "Asesor de Tesis: Reducción de tiempos en cambio de moldes (Ing. Sistemas Productivos, UTG 2021)",
+            "Asesor de Tesis: Mejora del sistema de inspección para el control de calidad (Ing. Sistemas Productivos, UTG 2021)",
+            "Asesor de Tesis: Reducción de scrap en máquina de corte komax (Ing. Sistemas Productivos, UTG 2021)",
+            "Asesor de Tesis: Continuous improvement plan to increase efficiency in production (Ing. Sistemas Productivos, UTG 2021)",
+            "Asesor de Tesis: Indexadora para chamer (Ing. Mecatrónica, UTN 2021)",
+            "Asesor de Tesis: Diseño e implementación de protección y alarma para máquina con Arduino (Ing. Mecatrónica, UTN 2021)",
+            "Asesor de Tesis: CCF (Creating Continuous Flow) (Ing. Mecatrónica, UTN 2021)",
+            "Asesor de Tesis: Diseño de máquina cortadora de anillos (Ing. Mecatrónica, UTN 2021)",
+            "Asesor de Tesis: Armado, puesta en marcha y mantenimiento de línea SDM Position Sensing (Ing. Mecatrónica, UTN 2021)",
+            "Asesor de Tesis: Crear y diseñar un jardín xérico en la UTG (TSU Sistemas Productivos, UTG 2020)",
+            "Asesor de Tesis: Diseño de jardines xéricos en biblioteca de la UTG (TSU Sistemas Productivos, UTG 2020)",
+            "Asesor de Tesis: Medidas de Seguridad para Alumnos ante COVID-19 (TSU Sistemas Productivos, UTG 2020)",
+            "Asesor de Tesis: Mejora organizacional en Taller Herys (TSU Manufactura Aeronáutica, UTG 2020)",
+            "Asesor de Tesis: Mejora productiva (TSU Manufactura Aeronáutica, UTG 2020)",
+            "Asesor de Tesis: Mejoras de procesos en el área de Fluoroelastomere Polymer (TSU Manufactura Aeronáutica, UTG 2020)",
+            "Asesor de Tesis: Manual de seguridad y buenas prácticas de taller (TSU Manufactura Aeronáutica, UTG 2020)",
+            "Asesor de Tesis: Estandarización del Procedimiento de Operación de una Draga de Cortador en Grupo Gorsa (Ing. Sistemas Productivos, UTN 2017)",
+            "Instructor: Inducción y Recorrido técnico al Proyecto de Dragado por Draga Beachway (UTG / UIG, 2019)",
+            "Asistente en Colecta: Relación del Suelo con el Cultivo de Camarón en Estanques Supra litorales (Tesis Acuicultura, ITG 2018)"
+        ];
+
+        const REPORTS_DATA = [
+            "Libro (Capítulo): Del andamiaje con inteligencia artificial a la autonomía: evaluación de código estadístico en ingeniería (2026)",
+            "Ponencia Oral: Geo diversidad de Áreas Naturales Protegidas del Noroeste de México (Congreso RENAMP, Aguascalientes 2018)",
+            "Ponencia: Respuestas del ecosistema litoral en la Bahía de La Paz a cambios ambientales (Cambio Climático, Hermosillo 2016)",
+            "Ponencia: Sedimentología de la Laguna Costera Enfermería de la Bahía de la Paz (Congreso Geológico, Hermosillo 2008)",
+            "Ponencia: Proceso Sedimentario e Islas de la Zona Costera de la Bahía de Guaymas (Islas del Golfo, Culiacán 2008)",
+            "Ponencia: Clasificación Geomorfológica de la Zona Costera de Guaymas-Empalme (Reunión Geomorfología, Morelia 2007)",
+            "Ponencia: Sedimentología de la Laguna Costera de Enfermería (Congreso Ciencias Ambientales, Chihuahua 2007)",
+            "Ponencia: Condiciones Sedimentológicas del Sistema Lagunar de Guaymas (Congreso Ciencias Ambientales, Oaxtepec 2006)",
+            "Reporte Técnico: Introducción al Manejo de Datos Sedimentológicos (CIBNOR, Guaymas 2021)",
+            "Reporte Técnico: Batimetría, Granulometría y MO de Sedimentos en el Margen Costero Oeste de Sonora (CIBNOR 2014)",
+            "Reporte Técnico: Granulometría y MO frente a descargas de estanques camaroneros (CIBNOR/DICTUS 2013)",
+            "MIA: Geología y Geomorfología del Área de San Basilio, Loreto, B.C.S. (CIBNOR 2007)",
+            "Reporte Técnico: Geología, Geomorfología y Edafología del Acuífero de Puerto Libertad (CIBNOR 2007)",
+            "Reporte Técnico: Estudio de Sedimentos en la Zona Infra-litoral del Puerto de Santa Rosalía (CIBNOR 2007)",
+            "Reporte Técnico: Geología Ambiental en Manglares (Lagunas de Enfermería y Balandra, CIBNOR 2006)",
+            "Reporte Técnico: Estudio Sedimentológico de Playa del Carmen (Quintana Roo, CIBNOR 2006)",
+            "Reporte Técnico: Análisis Sedimentológico frente a Guaymas Protein Company (CIBNOR 2006)",
+            "Integrante del Comité Asesor del Estero El Soldado (CEDES, Guaymas 2013)"
         ];
 
         const SOFTWARE_DATA = [
             { name: "AutoCAD", level: "Avanzado", icon: "fa-drafting-compass", cat: "Ingeniería" },
-            { name: "Surfer", level: "Avanzado", icon: "fa-layer-group", cat: "Sedimentología" },
-            { name: "ProRepSys", level: "Avanzado", icon: "fa-chart-area", cat: "Análisis" },
-            { name: "ERP Compras", level: "Avanzado", icon: "fa-dolly", cat: "Logística" },
+            { name: "ProRepSys", level: "Avanzado", icon: "fa-chart-area", cat: "Análisis Sedimentológico" },
+            { name: "Surfer", level: "Avanzado", icon: "fa-layer-group", cat: "Modelación Espacial" },
+            { name: "ERP Compras", level: "Avanzado", icon: "fa-dolly", cat: "Sistemas Logísticos" },
             { name: "Office / Excel", level: "Avanzado", icon: "fa-file-excel", cat: "Administración" },
-            { name: "CivilCAD", level: "Medio", icon: "fa-map-marked-alt", cat: "Ingeniería" },
-            { name: "CATIA", level: "Medio", icon: "fa-cube", cat: "Diseño 3D" },
-            { name: "Máximo", level: "Medio", icon: "fa-tools", cat: "Mantenimiento" },
-            { name: "Minitab", level: "Básico-Medio", icon: "fa-chart-bar", cat: "Estadística" },
-            { name: "Opus", level: "Básico", icon: "fa-calculator", cat: "Costos" },
-            { name: "Python", level: "Básico", icon: "fa-brands fa-python", cat: "Programación" },
-            { name: "MatLab", level: "Básico", icon: "fa-square-root-alt", cat: "Matemáticas" },
-            { name: "ArcView / ILWIS", level: "Básico", icon: "fa-globe-americas", cat: "GIS" }
+            { name: "CivilCAD", level: "Medio", icon: "fa-map-marked-alt", cat: "Ingeniería Vial" },
+            { name: "CATIA", level: "Medio", icon: "fa-cube", cat: "Diseño 3D Aeronáutico" },
+            { name: "Máximo", level: "Medio", icon: "fa-tools", cat: "Mantenimiento Industrial" },
+            { name: "Minitab", level: "Medio", icon: "fa-chart-bar", cat: "Control Estadístico" },
+            { name: "Opus", level: "Básico", icon: "fa-calculator", cat: "Costos y Presupuestos" },
+            { name: "Python", level: "Básico", icon: "fa-brands fa-python", cat: "Programación e IA" },
+            { name: "MatLab", level: "Básico", icon: "fa-square-root-alt", cat: "Análisis Matemático" },
+            { name: "ArcView / ILWIS", level: "Básico", icon: "fa-globe-americas", cat: "Sistemas GIS" }
         ];
 
-        // Active State of DB Browser
         let activeTab = 'cursos';
 
-        // Initialize display
+        // Load visual datasets on start
         window.addEventListener('DOMContentLoaded', () => {
             renderData();
         });
 
-        // Toggle Dark/Light Mode
+        // Theme Switcher Engine
         function toggleDarkMode() {
             document.documentElement.classList.toggle('dark');
             const mainNav = document.getElementById('main-nav');
@@ -909,7 +969,7 @@
             }
         }
 
-        // Copy Clipboard Helper
+        // Clip board manager (execCommand as required)
         function copyToClipboard(text) {
             const dummy = document.createElement("textarea");
             document.body.appendChild(dummy);
@@ -917,10 +977,9 @@
             dummy.select();
             document.execCommand("copy");
             document.body.removeChild(dummy);
-            showToast("¡Correo electrónico copiado al portapapeles!");
+            showToast("¡Correo electrónico copiado con éxito!");
         }
 
-        // Custom Toast system
         function showToast(text) {
             const toast = document.getElementById('toast-message');
             const toastText = document.getElementById('toast-text');
@@ -933,7 +992,6 @@
             }, 3000);
         }
 
-        // Mobile Menu Toggle
         const menuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         menuBtn.addEventListener('click', () => {
@@ -944,7 +1002,7 @@
             mobileMenu.classList.add('hidden');
         }
 
-        // Experience Timeline Filter
+        // Timeline sorting mechanics
         function filterExperience(type) {
             const items = document.querySelectorAll('.exp-item');
             items.forEach(item => {
@@ -957,7 +1015,6 @@
                 }
             });
 
-            // Update button styles
             const buttons = ['all', 'academia', 'ingenieria'];
             buttons.forEach(btn => {
                 const el = document.getElementById('btn-exp-' + btn);
@@ -971,7 +1028,7 @@
 
         function switchDbTab(tab) {
             activeTab = tab;
-            const tabs = ['cursos', 'proyectos', 'software'];
+            const tabs = ['cursos', 'proyectos', 'reportes', 'software'];
             tabs.forEach(t => {
                 const button = document.getElementById('tab-' + t);
                 if (t === tab) {
@@ -982,10 +1039,11 @@
                     button.classList.add('bg-slate-800', 'text-slate-300');
                 }
             });
-            document.getElementById('db-search').value = ""; // Clear search
+            document.getElementById('db-search').value = ""; // Reset filter input
             renderData();
         }
 
+        // Multi-functional search algorithm inside the visual console
         function renderData(filterText = "") {
             const container = document.getElementById('dynamic-display');
             container.innerHTML = "";
@@ -994,14 +1052,14 @@
             if (activeTab === 'cursos') {
                 const filtered = COURSES_DATA.filter(c => c.toLowerCase().includes(cleanFilter));
                 if (filtered.length === 0) {
-                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-sm">No se encontraron cursos con "${filterText}"</div>`;
+                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-xs">No se encontraron cursos con "${filterText}"</div>`;
                     return;
                 }
                 filtered.forEach(item => {
                     const card = document.createElement('div');
                     card.className = "p-4 bg-slate-900/60 rounded-xl border border-slate-800/80 flex gap-3 items-start hover:border-teal-500/30 transition-all";
                     card.innerHTML = `
-                        <div class="text-teal-400 mt-1 shrink-0"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="text-teal-400 mt-1 shrink-0"><i class="fa-solid fa-certificate text-xs"></i></div>
                         <div>
                             <p class="text-xs text-white leading-relaxed font-medium">${item}</p>
                         </div>
@@ -1011,14 +1069,31 @@
             } else if (activeTab === 'proyectos') {
                 const filtered = PROJECTS_DATA.filter(p => p.toLowerCase().includes(cleanFilter));
                 if (filtered.length === 0) {
-                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-sm">No se encontraron proyectos con "${filterText}"</div>`;
+                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-xs">No se encontraron proyectos con "${filterText}"</div>`;
                     return;
                 }
                 filtered.forEach(item => {
                     const card = document.createElement('div');
                     card.className = "p-4 bg-slate-900/60 rounded-xl border border-slate-800/80 flex gap-3 items-start hover:border-teal-500/30 transition-all";
                     card.innerHTML = `
-                        <div class="text-teal-400 mt-1 shrink-0"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="text-teal-400 mt-1 shrink-0"><i class="fa-solid fa-user-graduate text-xs"></i></div>
+                        <div>
+                            <p class="text-xs text-white font-medium leading-relaxed">${item}</p>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            } else if (activeTab === 'reportes') {
+                const filtered = REPORTS_DATA.filter(r => r.toLowerCase().includes(cleanFilter));
+                if (filtered.length === 0) {
+                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-xs">No se encontraron reportes o ponencias con "${filterText}"</div>`;
+                    return;
+                }
+                filtered.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = "p-4 bg-slate-900/60 rounded-xl border border-slate-800/80 flex gap-3 items-start hover:border-teal-500/30 transition-all";
+                    card.innerHTML = `
+                        <div class="text-teal-400 mt-1 shrink-0"><i class="fa-solid fa-file-invoice text-xs"></i></div>
                         <div>
                             <p class="text-xs text-white font-medium leading-relaxed">${item}</p>
                         </div>
@@ -1028,7 +1103,7 @@
             } else if (activeTab === 'software') {
                 const filtered = SOFTWARE_DATA.filter(s => s.name.toLowerCase().includes(cleanFilter) || s.cat.toLowerCase().includes(cleanFilter));
                 if (filtered.length === 0) {
-                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-sm">No se encontraron herramientas con "${filterText}"</div>`;
+                    container.innerHTML = `<div class="col-span-full py-12 text-center text-slate-500 text-xs">No se encontraron herramientas con "${filterText}"</div>`;
                     return;
                 }
                 filtered.forEach(item => {
@@ -1038,11 +1113,11 @@
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-lg bg-teal-500/10 flex items-center justify-center text-teal-400"><i class="fa-solid ${item.icon}"></i></div>
                             <div>
-                                <h4 class="text-sm font-bold text-white">${item.name}</h4>
-                                <span class="text-[10px] text-slate-400">${item.cat}</span>
+                                <h4 class="text-xs font-bold text-white">${item.name}</h4>
+                                <span class="text-[9px] text-slate-400">${item.cat}</span>
                             </div>
                         </div>
-                        <span class="text-[10px] px-2.5 py-1 rounded-full bg-slate-850 border border-slate-800 text-teal-300 font-semibold uppercase">${item.level}</span>
+                        <span class="text-[9px] px-2.5 py-1 rounded-full bg-slate-850 border border-slate-800 text-teal-300 font-semibold uppercase">${item.level}</span>
                     `;
                     container.appendChild(card);
                 });
